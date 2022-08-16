@@ -11,7 +11,7 @@ public class AddressBookMain {
         String age = "26";
         String phoneNumber = "7560778773";
         String city = "Mumbai";
-        String state = "Maharastra";
+        String state = "Maharashtra";
         Contact contactOne = new Contact(name, age, phoneNumber, city, state);
         contactList.add(contactOne);
         System.out.println(contactOne);
@@ -19,7 +19,7 @@ public class AddressBookMain {
         String name2 = "Amit Kumar";
         String age2 = "24";
         String phoneNumber2 = "7569897698";
-        String city2 = "Hydrabad";
+        String city2 = "Hyderabad";
         String state2 = "Telangana";
         Contact contactTwo = new Contact(name2, age2, phoneNumber2, city2, state2);
         contactList.add(contactTwo);
